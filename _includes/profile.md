@@ -1,0 +1,1 @@
+An experienced CTO, leader and full-stack developer, with a focus on people, process and remote-first working. I have a track record of introducing Agile processes, TDD and code quality, and favour steady, lasting change and building for the future.

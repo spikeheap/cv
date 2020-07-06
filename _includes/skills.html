@@ -1,0 +1,13 @@
+<h2>Skills</h2>
+
+<div>
+{% for skills_group in site.data.cv.profile.skills %}
+  <ul class="list-inline">
+    {% for skill in skills_group.skills %}
+      <li class="list-inline-item">
+        <span class="badge bg-primary">{{ skill }}</span>
+      </li>
+    {% endfor %}
+  </ul>
+{% endfor %}
+</div>

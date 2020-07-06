@@ -1,0 +1,332 @@
+profile:
+  name: Ryan Brooks
+  location: Sheffield, UK/Remote
+  summary: An experienced CTO, leader and full-stack developer, with a focus on people, process and remote-first working. I have a track record of introducing Agile processes, TDD and code quality, and favour steady, lasting change and building for the future.
+  contact:
+    phone: 07841757984
+    email: ryan@slatehorse.com
+  social:
+    twitter: "@spikeheap"
+    github: "@spikeheap"
+    linkedin: ryanpbrooks
+    stackoverflow_user_id: 384693
+  # TODO: remove and use aggregated skills from experience instead
+  skills:
+  - group: Ruby
+    skills:
+      - Ruby
+      - Rails
+      - Padrino
+      - RSpec
+      - Cucumber
+  - group: Python
+    skills:
+      - Python
+      - Nosetests
+      - CKAN
+  - group: JavaScript
+    skills:
+      - JavaScript
+      - Angular
+      - Karma
+  - group: Java
+    skills:
+      - Java
+      - Groovy
+      - Grails
+      - Spock
+  - group: Databases
+    skills:
+      - PostgreSQL
+      - MySQL
+      - SQL Server
+      - Redis
+      - ElasticSearch
+  - group: Docker
+    skills:
+      - Docker
+      - Kubernetes
+      - Terraform
+      - AWS
+      - Google Cloud Platform (GCP)
+      - VirtualBox
+  - group: Project management
+    skills:
+      - JIRA
+      - Confluence
+      - GitHub
+      - GitLab
+      - Slack
+      - Google Docs
+  - skills:
+      - Perl
+      - Git
+      - SVN
+experience:
+- organisation: Slate Horse Ltd
+  location: Oxford/Sheffield
+  position: Director & Principal Consultant
+  term: January 2015 - PRESENT
+  term_length: 6 months
+  summary: Offering Interim CTO services
+      - project-based contract development and consultancy with a focus on software quality
+      - testing, and empowering developers.
+  projects: 
+    - name: National Pupil Database Find & Explore
+      organisation: Department for Education
+      position: Technical Architect
+      term: October 2018 - Present
+      summary: Technical Architect in a cross-functional team. Used domain modelling to solve critical problems with the existing service. Prototyped Excel loading into ElasticSearch to help researchers discover available data, architected a VPN/RDP-based secure research environment, and a suite of standard extracts/process for researchers to access the data. Also assisted technical recruitment.
+      skills:
+        - Ruby
+        - ElasticSearch
+        - PostgreSQL
+        - SQL Server
+        - Azure
+    - name: RADAR DMS
+      organisation: The Press Association
+      term: November 2017 - March 2018
+      term_length: 5 months + ongoing hosting & support
+      summary: Coached the Urbs.Media founding team through product roadmapping and building an initial technical strategy. Later engaged to provide a hosted, heavily customised CKAN instance for both staging and production, and worked with their technical team to integrate with the PA publishing workflow.
+      skills:
+        - Python
+        - CKAN
+        - Nosetests
+        - Docker
+        - AWS
+        - Terraform
+    - name: Oxtractor.com
+      organisation: Oxtractor Ltd.
+      term: April 2017 – October 2018
+      term_length: 6 months
+      summary: Worked with the founder to define a focussed product roadmap and technical strategy. Subsequently introduced Scrum and built the MVP incrementally, which secured an investment offer.
+      skills:
+        - Ruby
+        - Rails
+        - RSpec
+        - Postgres
+        - AWS
+    - name: Ops resilience & Kubernetes migration
+      organisation: Bookwhen Ltd.
+      term: February 2017 – April 2017
+      term_length: 2 months
+      summary: Code quality consultancy, introducing unit and functional testing. Identified and worked with the client to mitigate operational risks through process and by incrementally migrating to GCP/Kubernetes.
+      skills:
+        - Ruby
+        - Rails
+        - RSpec
+        - Kubernetes
+        - Postgres
+        - Google Cloud Platform
+    - name: Ruby training
+      organisation: Bodleian Libraries, University of Oxford
+      term: January 2017 – January 2017
+      term_length: 1 week
+      summary: Delivered a bespoke 5-day Ruby/Rails hands-on training course for 12 delegates, tailored to their Open Research Archive work.
+      skills:
+        - Ruby
+        - Rails
+        - RSpec
+        - Cucumber
+        - RabbitMQ
+        - Blacklight
+        - VirtualBox
+    - name: ‘LabKing’ LabKey extension
+      organisation: Oxford University Hospitals NHS Foundation Trust
+      term: March 2015 – May 2015
+      term_length: 3 months
+      summary: Worked with clinicians and bioinformaticians to design and implement a LabKey extension to help remote healthcare workers contribute to cancer and hepatitis research.
+      skills: Angular
+    - name: growkudos.com
+      organisation: Kudos Innovations Ltd.
+      term: January 2015 – April 2018 
+      term_length: 27 months
+      summary: Provided interim CTO services including technical strategy and recruitment consultancy and identification of R&D Tax Credits, culminating in hiring a permanent CTO. Introduced pair-programming, code review and other processes to grow the team. Provided hands-on development, leading the creation of a high-performance data ingestion system, managed production and staging infrastructure and migrated development to Docker to enable testing of complex system interactions.
+      skills:
+        - Ruby
+        - Padrino
+        - Angular
+        - Docker
+        - AWS
+        - MySQL
+    - name: Critical Care data transformation
+      organisation: Oxford University Hospitals NHS Foundation Trust
+      term: January 2015 – September 2015
+      term_length: 8 months
+      summary: Extracted data from a complex Critical Care database and delivered to UCLH to aid a joint research project. Worked with both parties to improve the delivery schema and resolve data quality issues, alongside strict deadlines.
+      skills:
+        - Groovy
+        - XML
+        - MSSQL
+- organisation: Kudos Innovations Ltd
+  location: Oxford/Remote
+  position: Chief Technology Officer
+  term: September 2014 - January 2015
+  summary: I helped Kudos develop their platform from an initial prototype into a stable, scalable product, managing a team of 5-6 developers.
+  key_achievements:
+    - Introduced Scrum for the development team, with mechanisms for urgent customer support requests.
+    - Coached and mentored the development and management teams, promoting sustainable pace and long-term quality.
+    - Led the development of a UI/UX overhaul of the existing site, migrating  parts of the site to Angular.
+    - Led the re-engineering of their internal statistical modelling to improve performance.
+  skills:
+    - Ruby
+    - Padrino
+    - Angular
+    - AWS
+    - RSpec
+    - Cucumber
+    - Docker
+- organisation: University of Oxford
+  location: Oxford
+  position: Senior Software Engineer
+  term: November 2013 – September 2014
+  summary: Rapidly became a key member of a team developing open-source metadata-registry tools modelling patient data within the NHS. Introduced Scrum, TDD, functional testing, CI and Puppet.
+  skills:
+    - Groovy
+    - Angular
+    - Spock
+- organisation: NMi Metrology & Gaming Ltd
+  location: North Wales
+  position: Chief Technology Officer
+  term: December 2011 – November 2013
+  summary: Responsible for the strategic development of systems & processes to support growth and operational activities, and the security and integrity of NMi UK’s computing resources and data under ISO 17025.
+  key_achievements:
+    - Managed a team of 3 developers and promoted team development through coaching, training, TDD & pair-programming.
+    - Ran critical, short-term projects from inception to completion.
+    - Visited clients around Europe, providing gambling compliance testing services, on-site auditing and consultancy.
+    - Strategically developed systems, policies, procedures & training to allow the business to grow from 3 to 30 people.
+    - Designed and built a report delivery system on AWS to make project progress transparent and add auditability to the delivered reports.
+    - Introduced an OpenStack private cloud to improve upgrade testing procedures and provide development/staging environments.
+    - Managed and developed Ubuntu/Debian/Windows hybrid  network.
+  skills:
+    - Java
+    - Groovy
+    - Perl
+    - JIRA
+    - Confluence
+    - Git
+    - SVN
+- organisation: "NMi Metrology & Gaming Ltd"
+  location: North Wales
+  position: Lead Developer/Sysadmin
+  term: March 2009 – December 2011
+  skills:
+    - Java
+    - Groovy
+    - Perl
+    - JIRA
+    - Confluence
+    - Git
+    - SVN
+- organisation: Centre For Advanced Software Technology Ltd
+  location: North Wales
+  position: Test Engineer/Software Developer
+  term: January 2008 – March 2009
+  skills:
+    - Perl
+    - SVN
+- organisation: ETL Solutions Ltd
+  location: North Wales
+  position: Junior Developer
+  term: October 2005 – June 2008
+  skills:
+    - Java
+    - PHP
+    - CVS
+
+
+certifications:
+- title: Certified Information Systems Security Professional (lapsed)
+- title: Certified Information Systems Security Professional (lapsed)
+- title: CMI Level 5 Coaching & Mentoring
+- title: PRINCE2 Foundation
+- title: Certified Ethical Hacker
+
+community:
+- role: Mentor
+  organisation: Independent
+  term: 2016 – Present
+- role: Mentor
+  organisation: Code4000/YooMee
+  term: 2018 – Present
+- role: Organiser
+  organisation: OxRUG
+  term: 2015 – 2018
+- role: Organiser
+  organisation: JSOxford
+  term: 2014 – 2017
+- role: Mentor
+  organisation: Codebar Oxford
+  term: 2016 – 2018
+
+events:
+- event: Introducing organisational change
+  event_type: workshop
+  organisation: DOPM
+  date: April 2018
+- event: We need it now!
+  event_type: workshop
+  organisation: DOPM
+  date: September 2017
+- event: Introduction to coaching
+  event_type: workshop
+  organisation: DOPM
+  date: August 2017
+- event: Summer of Hacks
+  event_type: workshop
+  organisation: JSOxford
+  date: Summer 2016
+- event: Docker Hack Wales
+  event_type: workshop
+  organisation: North Wales Tech
+  date: June 2016
+- event: Docker Birthday hack
+  event_type: workshop
+  organisation: DevOps Oxford
+  date: March 2016
+- event: Summer of Hacks
+  event_type: workshop
+  organisation: JSOxford
+  date: Summer 2015
+
+- event: You need a mentor!
+  event_type: talk
+  organisation: Codebar
+  date: October 2017
+- event: WebSockets in Ruby
+  event_type: talk
+  organisation: OxRUG
+  date: March 2017
+- event: Improve your life with this one weird trick they didn't want you to know about*
+  event_type: talk
+  organisation: JSOxford
+  date: February 2017
+- event: Composable filters in Ruby
+  event_type: talk
+  organisation: OxRUG
+  date: June 2016
+- event: Progressive Continuous Delivery
+  event_type: talk
+  organisation: DevOps Oxford
+  date: May 2016
+- event: Pain in the Asset Pipeline
+  event_type: talk
+  organisation: OxRUG
+  date: December 2015
+- event: The most convoluted JavaScript testing framework?
+  event_type: talk
+  organisation: JSOxford
+  date: May 2015
+
+education:
+- qualification: Postgraduate research
+  institution: University of Wales, Bangor
+  term: 2005 – 2010
+  summary: Researching plagiarism, duplicate detection & similarity analysis, using text compression techniques and statistical measures.
+- qualification: B.Sc. (Hons) Computer Systems with Business Studies – 1st Class
+  institution: University of Wales, Bangor
+  term: 2002 – 2005
+- qualification: 3 A-Levels & 9 GCSEs
+  institution: Rossett School, Harrogate
+  term: 1995 – 2002
+  

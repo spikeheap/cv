@@ -1,0 +1,27 @@
+<div class="mt-5">
+  <h2>Experience</h2>
+  {% assign sortedRoles = site.roles | sort: 'start_date' | reverse %}
+  {% for role in sortedRoles %}
+    <h3>{{ role.organisation }} <small class="text-muted">{{ role.role }}</small></h3>
+    <p>{{ role.location }}</p>
+
+    {{ role.start_date | date: "%B %Y" }} to
+    {% if role.end_date %} 
+      {{ role.end_date | date: "%B %Y" }}
+    {% else %}
+      PRESENT
+    {% endif %}
+
+    {{ role.content | markdownify }}
+
+    <div>
+      <ul class="list-inline text-right">
+        {% for skill in role.skills %}
+          <li class="list-inline-item">
+            <span class="badge bg-primary">{{ skill }}</span>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endfor %}
+</div>

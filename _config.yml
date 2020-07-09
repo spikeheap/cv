@@ -34,6 +34,13 @@ github_username:  spikeheap
 plugins:
   - jekyll-feed
 
+# Keep all collections together
+collections_dir: cv_data
+
+collections:
+  - roles
+  - projects
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

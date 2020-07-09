@@ -12,6 +12,8 @@ layout: home
         {% include profile.md %}
       </div>
 
+      {% include experience.html %}
+
 
     </div>
     <div class="col-sm">

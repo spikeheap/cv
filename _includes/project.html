@@ -1,0 +1,25 @@
+<!-- TODO: refactor to reuse in experience -->
+<h4>{{ include.project.name }} <small class="text-muted">{{ include.project.client }}</small></h4>
+{% assign end_date = include.project.end_date | date: "%s" %}
+{% assign start_date = include.project.start_date | date: "%s" %}
+
+{{ include.project.start_date | date: "%B %Y" }} to
+{% if include.project.end_date %} 
+  {{ include.project.end_date | date: "%B %Y" }}
+  ({{ end_date | minus: start_date | divided_by: 2592000 }} months)
+{% else %}
+  PRESENT
+{% endif %}
+
+{{ include.project.content | markdownify }}
+
+<!-- TODO: refactor to reuse in experience -->
+<div>
+  <ul class="list-inline text-right">
+    {% for skill in include.project.skills %}
+      <li class="list-inline-item">
+        <span class="badge bg-primary">{{ skill }}</span>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

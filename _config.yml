@@ -38,8 +38,10 @@ plugins:
 collections_dir: cv_data
 
 collections:
-  - roles
-  - projects
+  roles:
+    sort_by: start_date
+  projects:
+    sort_by: start_date
 
 # Exclude from processing.
 # The following items will not be processed, by default.

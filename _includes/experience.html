@@ -2,7 +2,7 @@
   <h2>Experience</h2>
   {% assign sortedRoles = site.roles | reverse %}
   {% for role in sortedRoles %}
-    <h3>{{ role.organisation }} <small class="text-muted">{{ role.role }}</small></h3>
+    <h3>{{ role.role }} <small class="text-muted">at {{ role.organisation }}</small></h3>
     <p>{{ role.location }}</p>
 
     {{ role.start_date | date: "%B %Y" }} to
@@ -17,7 +17,7 @@
     <div class="ml-4">
       {% assign sortedProjects = site.projects | reverse %}
       {% for project in sortedProjects %}
-        {% if project.role_organisation == role.organisation && project.role_start_date == role.start_date %}
+        {% if project.role_key == role.key %}
           {% include project.html project=project %}
         {% endif %}
       {% endfor %}

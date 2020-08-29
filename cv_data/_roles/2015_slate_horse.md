@@ -1,4 +1,5 @@
 ---
+key: slate_horse
 organisation: Slate Horse Ltd
 location: Oxford/Sheffield
 role: Director & Principal Consultant

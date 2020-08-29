@@ -6,13 +6,15 @@ role: Chief Technology Officer
 start_date: 2014-09-01
 end_date: 2015-01-01
 skills:
-  - Ruby
-  - Padrino
-  - Angular
-  - AWS
-  - RSpec
-  - Cucumber
-  - Docker
+  Ruby:
+    - Padrino
+    - RSpec
+    - Cucumber
+  JavaScript:
+    - Angular
+  DevOps:
+    - AWS
+    - Docker
 ---
 I helped Kudos develop their platform from an initial prototype into a stable
   - scalable product

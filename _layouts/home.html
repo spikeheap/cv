@@ -10,9 +10,18 @@
   <title>{{ page.title | default: site.title }}</title>
 
   <!-- Bootstrap core CSS -->
-  <style class="anchorjs"></style><link href="assets/bootstrap-5.0.0-alpha1-dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/bootstrap-5.0.0-alpha1-dist/css/bootstrap.min.css" rel="stylesheet">
 
-<!--   <link rel="stylesheet" href="/docs/5.0/assets/css/docs.css"> -->
+  <!--   <link rel="stylesheet" href="/docs/5.0/assets/css/docs.css"> -->
+
+  <style>
+    @media print {
+    /*p {
+      orphans: 3;
+    }*/
+  }
+  </style>
+
 </head>
 
 {{ content }}

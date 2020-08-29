@@ -1,12 +1,11 @@
 ---
-role_organisation: Slate Horse Ltd
-role_start_date: 2015-01-01
+role_key: slate_horse
 
 name: National Pupil Database Find & Explore
 client: D​epartment for Education
 position: Technical Architect
-start_date: OCTOBER 2018
-end_date: MARCH 2019
+start_date: 2018-10-01
+end_date: 2019-03-31
 skills:
 - Ruby
 - ElasticSearch

@@ -1,5 +1,5 @@
 <!-- TODO: refactor to reuse in experience -->
-<h4>{{ include.project.name }} <small class="text-muted">{{ include.project.client }}</small></h4>
+<h4>{{ include.project.name }} <small class="text-muted">at {{ include.project.client }}</small></h4>
 {% assign end_date = include.project.end_date | date: "%s" %}
 {% assign start_date = include.project.start_date | date: "%s" %}
 

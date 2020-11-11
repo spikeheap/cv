@@ -243,6 +243,9 @@ certifications:
 - title: Certified Ethical Hacker
 
 community:
+- role: Organiser
+  organisation: Remote Hack
+  term: 2020 – Present
 - role: Mentor
   organisation: Independent
   term: 2016 – Present
@@ -260,6 +263,10 @@ community:
   term: 2016 – 2018
 
 events:
+- event: Global Code Retreat (UK, remote)
+  event_type: workshop
+  organisation: Remote Hack
+  date: November 2020
 - event: Introducing organisational change
   event_type: workshop
   organisation: DOPM
@@ -289,6 +296,14 @@ events:
   organisation: JSOxford
   date: Summer 2015
 
+- event: Life as a software engineer
+  event_type: talk
+  organisation: The Developer Academy
+  date: November 2020
+- event: Pair programming
+  event_type: talk
+  organisation: MoJ Central Digital
+  date: October 2020
 - event: You need a mentor!
   event_type: talk
   organisation: Codebar

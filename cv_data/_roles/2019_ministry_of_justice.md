@@ -9,4 +9,5 @@ skills:
     - Rails
 ---
 TODO Senior TA
-
+TODO pairing talk
+TODO recruitment

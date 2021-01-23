@@ -3,7 +3,7 @@ layout: home
 ---
 <div class="container">
   <div class="row mt-5">
-    <div class="col-sm-8">
+    <div class="col-md-8">
       <h1>
         {{ site.data.cv.profile.name }}
       </h1>
@@ -16,7 +16,7 @@ layout: home
 
 
     </div>
-    <div class="col-sm">
+    <div class="col-md">
       {% include contact-details.html %}
       {% include skills.html %}
     </div>

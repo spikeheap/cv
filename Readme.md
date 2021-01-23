@@ -1,5 +1,5 @@
 ## To do
-
+- [ ] Clean up and make public (?)
 - [ ] Add telephone legend/icon/alt text
 - [ ] Add favicons
 - [ ] Add Twitter metadata

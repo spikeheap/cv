@@ -11,26 +11,4 @@
   </ul>
 {% endfor %}
 
-{% assign all_role_skills = site.roles | map: "skills" | compact %}
-{% assign all_project_skills = site.projects | map: "skills" | compact %}
-
-{% assign all_skill_groups = all_role_skills  %}
-
-{% assign deduped_skills = {}  %}
-{% for skill_hash in all_skill_groups %}
-
-{% endfor %}
-
-<hr/>
-{% for skill_hash in all_skill_groups %}
-  {{ skill_hash.first }}
-  <ul class="list-inline">
-    {% for skill in skill_hash[1] %}
-    <li class="list-inline-item">
-      <span class="badge bg-primary">{{ skill }}</span>
-    </li>
-    {% endfor %}
-  </ul>
-{% endfor %}
-<hr/>
 </div>

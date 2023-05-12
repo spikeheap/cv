@@ -15,12 +15,15 @@
     {{ role.content | markdownify }}
 
     <div class="ml-4">
-      {% assign sortedProjects = site.projects | reverse %}
-      {% for project in sortedProjects %}
-        {% if project.role_key == role.key %}
+      
+      {% assign sortedProjects = site.projects | where: "role_key", role.key | reverse %}
+      
+      {% if sortedProjects.size > 0 %}
+        <h4>Projects</h4>
+        {% for project in sortedProjects %}
           {% include project.html project=project %}
-        {% endif %}
-      {% endfor %}
+        {% endfor %}
+      {% endif %}
     </div>
 
     <div>

@@ -1,7 +1,6 @@
 source "https://rubygems.org"
 
-# We use github-pages directly, so this isn't needed
-gem "jekyll", "~> 4.1.0"
+gem "jekyll"
 
 group :jekyll_plugins do
   # gem "github-pages"
